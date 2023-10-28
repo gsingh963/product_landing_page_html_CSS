@@ -11,6 +11,10 @@ body{
     background-color: var(--pale);
 }
 
+#header{
+    position: fixed;
+    width: 100%;
+}
 
 #header-img{
     width:60px;
@@ -22,7 +26,6 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position:sticky;
     width:100%;
     top:0;
     background-color: var(--white);
@@ -62,7 +65,7 @@ body{
  flex-direction: column;
  justify-content: space-around;
  align-items: center;
- margin: 10px;
+ padding-top: 100px;
 
 }
 
